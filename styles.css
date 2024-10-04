@@ -1,16 +1,16 @@
 
 /* Your CSS Code here. */
 
-.moviePic{
-	.moviePic {
-    height: 200px;
+
+.moviePic {
+    height: 400px;
     width: auto;
     opacity: 0.9;
     transition: opacity 0.3s ease;
     border-radius: 10px;
 }
 	
-}
+
 
 .movieDetail{
 	position: relative;
@@ -28,4 +28,8 @@
     padding: 20px;
     width: 60%;
     max-width: 600px;
+}
+
+.moviePic:hover {
+    opacity: 1;
 }
